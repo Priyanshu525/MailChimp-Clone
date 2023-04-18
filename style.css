@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*----------------------------------- HEAD --------------------------- */
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #241c15;
+    padding: 1rem;
+    color: white;
+    font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+
+}
+.head a{
+    color: white;
+}
+/*----------------------------------- NAVBAR -------------------------------------------------- */
+.navbar ul{
+    display: flex;
+    list-style: none;
+
+}
+.navbar li{
+    margin: 1.2rem;
+    font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+#mrchimp{
+    height: 3.8rem;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+#mrchimp:hover{
+    transform: rotate(-15deg);
+}
+#chimptext{
+    height: 2rem;
+    position: relative;
+    bottom: -1rem;
+}
+#mainlogo{
+    margin-left: 14rem;
+    margin-right: 11rem;
+    display: flex;
+}
+.navbtn{
+    
+    margin-top: 0.2rem;
+    
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s;
+
+}
+.login{
+    border: 1.5px solid black;
+    border-radius: 20px;
+    width:6rem;
+    height: 2.5rem;
+   
+}
+.login:hover{
+    transform: translateY(-5px);
+    border-bottom: 6px solid black;
+}
+.freetrial{
+    text-align: center;
+    background-color: #ffe01b;
+
+    border: 1.5px solid black;
+    border-radius: 20px;
+    width: 9rem;
+    height: 2.5rem;
+    font-size: 2rem;
+    font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+    border-bottom: 4px solid black;
+    cursor: pointer;
+}
+.freetrial:hover{
+    transform: translateY(-5px);
+    border-bottom: 6px solid black;
+}
+.fa-search{
+    cursor: pointer;
+}
+nav i{
+    position: relative;
+   top: 0.5rem;
+    font-size: 1.2rem;
+}
+nav i:hover{
+    color: #004e56;
+}
+/* -------------------INROOO ---------------------- */
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro h1{
+    color:#241c15;
+    margin-top: 3rem;
+    font-size: 3.3rem;
+    font-family: Means Web,Georgia,Times,Times New Roman,serif;
+    font-weight: 500;
+}
+.intro h2{
+    color:#241c15;
+
+    margin-top:1rem ;
+    font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+    font-weight: 200;
+    padding: 0 20rem;
+    text-align: center;
+}
+.freetrialbtn{
+    margin-top: 1.8rem;
+    text-align: center;
+    background-color: #ffe01b;
+
+    border: 1.5px solid black;
+    border-radius: 60px;
+    width: 7rem;
+    height: 1rem;
+    font-size: 0.9rem;
+    padding:1rem ;
+    font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+  
+    cursor: pointer;
+    transition:all 0.1s ;
+}
+.freetrialbtn:hover{
+    transform: translateY(-5px);
+    border-bottom: 6px solid black;
+}
+/* -----------------------------------------INFO1 ------------------------------------------ */
+.info1 ul{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+.info1 img{
+    height: 30rem;
+    margin: 0;
+    width: 23.75rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.info1 li{
+display: flex;
+flex-direction: column;
+}
+.info1 h3{
+    height: 10rem;
+    background-color: red;
+    font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 4rem;
+    padding-left:2rem ;
+    padding-right: 2rem;
+}
+.info1 h2{
+    position: relative;
+    top: 3rem;
+    text-align: center;
+    cursor: pointer;
+    z-index: 22;
+}
+
+
+.imgbtn{
+    margin-top: 1rem;
+    padding: 1rem;
+    background:none;
+    border: 1.5px solid black;
+    border-radius: 30px;
+    transition: all 0.1s;
+    font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+font-weight: 500;
+width: 8rem;
+cursor: pointer;
+}
+.imgbtn:hover{
+    transform: translateY(-5px);
+    border-bottom: 6px solid black;
+}
+#h31{
+    background-color: rgb(248, 173, 32);
+    
+}
+#h32{
+    background-color: rgb(255, 191, 73);
+}
+#h33{
+    background-color: rgb(249, 236, 211);
+}
+#h34{
+    background-color: white;
+}
+.info1 img:hover{
+    transform: scale(1.07);
+}
+@media screen and (max-width:1430px) {
+    .head{
+        width: 1475px;
+    }
+    nav{
+        width: 1475px;
+    }
+    .intro{
+  width: ;
+    }
+}
+
+
+@media screen and (max-width:1025px) {
+    .head{
+        width: 1475px;
+    }
+    nav{
+        width: 1470px;
+    }
+    .intro{
+margin-left: 320px;
+padding: 0;
+    }
+    .intro h2{
+        padding: 0;
+    }
+}
